@@ -1,12 +1,12 @@
 package project
 
-import{
+import (
 	"fmt"
     //"io/ioutil"
     "database/sql"
 	//"errors"
 	"strconv"
-}
+)
 
 type Zipcode_CCVI struct {
     Community_area_or_zip  string 
