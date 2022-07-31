@@ -1,11 +1,16 @@
 package project
 
 import (
-	"fmt"
+    "encoding/json"
+    "fmt"
     //"io/ioutil"
+    "log"
     "database/sql"
 	//"errors"
+	_ "github.com/lib/pq"
 	"strconv"
+	"net/http"
+	"io"
 )
 
 type Zipcode_CCVI struct {
